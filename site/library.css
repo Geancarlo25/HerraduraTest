@@ -1,12 +1,14 @@
 
+body, html {
+  height: 100%;
+}
 body 
-{ height: 400px;
+{  
 background-image: url("https://scontent.fsjo6-1.fna.fbcdn.net/v/t39.30808-6/210492605_1594243157439515_3043762424903479128_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=e3f864&_nc_ohc=qnhlp540pjUAX8_YV9d&_nc_ht=scontent.fsjo6-1.fna&oh=00_AT-3i-eVHzHlLdNwreowhsvQK-DqL0q4qWAOozVD5UiSxA&oe=626BAF76");
 background-size: cover;
 background-repeat:no-repeat;
-background-position: center center;
+background-position:center;
 }
-
 
 ul {
     list-style-type: none;

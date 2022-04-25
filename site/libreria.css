@@ -1,13 +1,4 @@
-<!DOCTYPE HTML>
-<html>
-<!-- El titulo de la Pagina -->
-<head> <title> Jacó All in One </title> 
-
-  <!-- <link rel="stylesheet" type="text/css" href="css/libreria.css"/> -->
-<script language=Javascript src="js/leyenda.js"> </script>
-
-<!-- Aqui empieza todo el CSS -->
-<style>
+/*     linen color another option  */  
 body {background-color: lightskyblue;}
 ul {
     list-style-type: none;
@@ -26,7 +17,7 @@ h1,h3,h2,h4 {text-align:center;}
 
   li {display:inline-block
   ;color:white;font-size:20px;border-style:double
-  ;border-width:thick;text-align: center;padding: 14px 16px;text-decoration: none;
+  ;border-width:thick;float: left;text-align: center;padding: 14px 16px;text-decoration: none;
 }
  
  .nav img {height: 15px;}
@@ -34,7 +25,7 @@ h1,h3,h2,h4 {text-align:center;}
   
 
   .jumbotron {
-  background-image: url('https://img.freepik.com/foto-gratis/gaviotas-gaviotas-volando-cielo-azul_79295-10576.jpg?w=740'); 
+  background-image: url('https://img.freepik.com/foto-gratis/gaviotas-gaviotas-volando-cielo-azul_79295-10576.jpg?w=740');no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -45,7 +36,7 @@ h1,h3,h2,h4 {text-align:center;}
 .boton h3 {
   background-color: #333;
   color: yellow;
-  font-family: Florence,cursive;
+  font-family: font-family:Florence, cursive;
   font-weight: 600;
   font-size: 18px;
   letter-spacing: 1.3px;
@@ -65,7 +56,7 @@ h1,h3,h2,h4 {text-align:center;}
  .boton h2 {
   background-color: #333;
   color: yellow;
-  font-family: Florence, cursive;
+  font-family: font-family:Florence, cursive;
   font-weight: 600;
   font-size: 18px;
   letter-spacing: 1.3px;
@@ -78,12 +69,13 @@ h1,h3,h2,h4 {text-align:center;}
   position:absolute;
   bottom:300px;
   left:16px;
-   } 
+  
+  } 
   
   .boton h4 {
   background-color: #333;
   color: yellow;
-  font-family: Florence, cursive;
+  font-family: font-family:Florence, cursive;
   font-weight: 600;
   font-size: 18px;
   letter-spacing: 1.3px;
@@ -103,7 +95,7 @@ h1,h3,h2,h4 {text-align:center;}
 .boton p {
   background-color: #333;
   color: yellow;
-  font-family: Florence, cursive;
+  font-family: font-family:Florence, cursive;
   font-weight: 300;
   font-size: 18px;
   letter-spacing: 1.3px;
@@ -120,7 +112,7 @@ h1,h3,h2,h4 {text-align:center;}
 .boton p1 {
   background-color: #333;
   color: yellow;
-  font-family: Florence, cursive;
+  font-family: font-family:Florence, cursive;
   font-weight: 300;
   font-size: 18px;
   letter-spacing: 1.3px;
@@ -139,7 +131,7 @@ h1,h3,h2,h4 {text-align:center;}
 .boton p2{
   background-color: #333;
   color: yellow;
-  font-family: Florence, cursive;
+  font-family: font-family:Florence, cursive;
   font-weight: 300;
   font-size: 18px;
   letter-spacing: 1.3px;
@@ -175,77 +167,4 @@ h1,h3,h2,h4 {text-align:center;}
 img {width:100%;height:auto;}
 
 footer {font-size:20px;text-align:center;}
-</style>
-
-<!-- **************************************************************************** -->
-<!-- HTML Structure -->
-</head>
-<body onload="leyenda.js">
-
-<!-- Aqui empieza el menu de la pagina HTML llamada clase nav-->
-<div class="nav">
-<ul>
-  <li> Home </li>
-  <li> Tours </li>
-  <li> Contact Us </li>
-  <li> <img src="imagenes/4D.gif" alt="cube"> </li>
-  /ul>
-</div>
-
-<!-- Aqui empieza el nombre de la empresa con una leyenda en la clase jumbotron-->
-<div class="jumbotron">  
-<h1> WELCOME TO JACO ALL IN ONE </h1>
-<h3> ***** When your dreams come true *****</h3>
-</div>
-
-<!-- Aqui es donde se pone la imagen de fondo de la pagina -->
-<img src="imagenes/marina.jpg" alt="marina">
-
-<div class="supporting">
-
-  <div class="container">
-         <div class="boton">
-               <div class="col">
-         
-             <img src="https://www.gmail.com">
-   
-  <a href="ingreso.html"> <h2> CHECK-IN</h2> </a> 
-  <p1> <bold>Excellent rooms 24/7</bold></p1>
-</div>
-</div>
-
-<div class="boton">
-   
-  <div class="col">
-   <img src="https://instagram.com">
-  <a href="checkout.html"> <h4> CHECK-OUT</h4> </a> 
-  <p2> Gracias por su estadia lo esperamos pronto</p2>
-</div>
-  </div>
-  
-  
-  <div class="boton">
-     <div class="col">
-    <img src="https://facebook.com">
-  <a href="informacion.html"> <h3> Information</h3> </a> 
-  <p>Informacion regarding our packages </p>
-  </div>
-</div>
-</div>
-</div>
-
-<iframe src="http://www.facebook.com/" name="FACEBOOK"
-      width="400" height="500" scrolling="auto" frameborder="1">
-      <p>Texto alternativo para navegadores que no aceptan iframes.</p>
-    </iframe>
-
-
-
-</body>
-
- <footer> Copyright &copy; by Geancarlo B.   </footer>
-
- 
- </html>
-
 
